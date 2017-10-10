@@ -64,7 +64,7 @@ def plot(data):
     style = LightGreenStyle
     style.label_font_size = 25
     style.title_font_size = 35
-    linec = pygal.Bar(style = LightGreenStyle, show_legend = False)
+    linec = pygal.Bar(style = style, show_legend = False)
     linec.title = ''
     linec.x_labels = map(str, range(2007, 2016))
 
